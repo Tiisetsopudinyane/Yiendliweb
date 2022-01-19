@@ -8,6 +8,7 @@ body{
     background-color: rgb(230, 227, 233);
     text-align: center;
     display: flex;
+    height: 100%;
     flex-direction: column;
     margin: 0;
 }
@@ -26,7 +27,12 @@ body{
     border-radius: 15px;
     background-color:rgb(185, 180, 180) ;
 }
-
+.logo{
+    height:80px;
+    width:100px;
+    filter: contrast(100%);
+    margin-top: -10px;
+}
 .contrast{
     filter: contrast(80%);
 }
@@ -41,7 +47,7 @@ footer {
     padding: 2px;
     background-color: rgb(99, 97, 97);
     color: rgb(185, 180, 180);
-    position:static;
+    position:inherit;
     bottom: 0px;
     left: 0px;
     right: 0px;
