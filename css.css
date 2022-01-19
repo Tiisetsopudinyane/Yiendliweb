@@ -8,14 +8,30 @@ body{
     background-color: rgb(230, 227, 233);
     text-align: center;
     display: flex;
-    height: 100%;
     flex-direction: column;
     margin: 0;
 }
 .navbar{
     background-color: rgb(255, 254, 254);
     color: black;
-    width: 100%;
+    position:relative;
+}
+.card-body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.homeImage{
+    width: 280px;
+    height: 180px;
+    border-radius: 15px;
+    background-color:rgb(185, 180, 180) ;
+}
+
+.contrast{
+    filter: contrast(80%);
+}
+.shadow{
+    filter: drop-shadow(15px 0px 10px grey);
 }
 .nav li a:hover{
     color: rgb(10, 46, 248);
@@ -25,7 +41,7 @@ footer {
     padding: 2px;
     background-color: rgb(99, 97, 97);
     color: rgb(185, 180, 180);
-    position:fixed;
+    position:static;
     bottom: 0px;
     left: 0px;
     right: 0px;
