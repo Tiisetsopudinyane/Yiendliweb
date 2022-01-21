@@ -8,7 +8,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </link>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></head> <body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head> 
+    <body>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header col-md-2">
@@ -24,32 +26,43 @@
             </div>
         
         </nav>
-        <div class="container">
-            <div class="row">
-                <h2>CONTACT US</h2>
-                    <div class="contact-box">
-                        <form>
-                            <input type="text" class="input-field" placeholder="Your name">
-                            <input type="email" class="input-field" placeholder="Your Email">
-                            <textarea type="text" class="input-field textarea-field" placeholder="Your Message" name="" id="" cols="30" rows="10"></textarea>
-                            <button type="button" class="btn">Send Message</button>
-                        </form>
+            <div class="container">
+                
+                <div class="row">
+                    <h2>CONTACT US</h2>
+                    <div class="row">
+                        <address class="container"><strong>Yiendli Services</strong><br>
+                            <a href="#">email.gmail.com</a>
+                            </address>
                     </div>
-                <address class="container"><strong>Yiendli Services</strong><br>
-                <a href="#">email.gmail.com</a>
-                </address>
+                        <div class="contact-box container mb-20px">
+                            <form> 
+                                <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control textarea-field" rows="10" cols="30" placeholder="Write your message"></textarea>
+                              </div>
+                              <div>
+                                <button type="submit" class="btn btn-success">Send a Message</button>
+                              </div>
+                            </form>
+                        </div>
+                </div>
+                
             </div>
-        </div>
         
-        <footer class="bg-dark text-center text-white">
-            <section class="mb-4">
+        <footer class="text-center">
+            <div class="mb-4">
                 <a class="btn btn-outline-light btn-floating" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                         class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
-            </section>
-            <section class="">
+                </div>
                 <div class="container text-center text-md-start mt-5">
     
                     <div class="row mt-3">
@@ -62,6 +75,7 @@
                             <p>
                                 South African Software services company.
                             </p>
+                            <img class="logo" src="./img/logo.svg">
                         </div>
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
     
@@ -110,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            
     
         </footer>
     </body>

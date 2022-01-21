@@ -1,14 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 html{
-    margin: 0;
     height: 100%;
-    color: rgb(0, 0, 0);
 }
 body{
     color: rgb(0, 0, 0);
     background-color: rgb(230, 227, 233);
     text-align: center;
+    min-height: 100%;
     display: flex;
-    height: 100%;
     flex-direction: column;
     margin: 0;
 }
@@ -30,8 +32,9 @@ body{
 .logo{
     height:80px;
     width:100px;
+    margin-bottom: 15px;
+    border-radius: 10px ;
     filter: contrast(100%);
-    margin-top: -10px;
 }
 .contrast{
     filter: contrast(80%);
@@ -53,16 +56,15 @@ span{
     font-weight: bold;
 }
 
-footer {
+footer{
     text-align: center;
-    padding: 2px;
     background-color: rgb(99, 97, 97);
     color: rgb(185, 180, 180);
-    position:inherit;
+    position:relative;
+    width: 100%;
+    margin-top: auto;
     bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+    clear: both;
   }
 a{
       color: rgb(141, 139, 139);
@@ -72,13 +74,11 @@ a{
   }
 
   .contact-box{
-    width: 500px;
-    background-color: #fff;
+    width: 400px;
     box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%,-60%);
-    position: absolute;
+    padding: 5px;
+    margin-bottom: 15px;
+    position: relative;
     
 }
 form{
@@ -101,11 +101,10 @@ form{
 
 }
 .btn{
-    border-radius: 20px;
     color: #fff;
     margin-top: 18px;
     padding: 8px;
-    background-color: #47c35a;
+    background-color: #0ca022;
     font-size: 12px;
     border: none;
     cursor: pointer;
