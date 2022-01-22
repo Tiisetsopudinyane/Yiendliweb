@@ -15,9 +15,9 @@ body{
     margin: 0;
 }
 .navbar{
-    background-color: rgb(255, 254, 254);
     color: black;
     position:relative;
+    display: flex;
 }
 .card-body{
     margin-top: 10px;
@@ -31,8 +31,7 @@ body{
 }
 .logo{
     height:80px;
-    width:100px;
-    margin-bottom: 15px;
+    width:100px; 
     border-radius: 10px ;
     filter: contrast(100%);
 }
@@ -45,6 +44,10 @@ body{
 .nav li a:hover{
     color: rgb(10, 46, 248);
 }
+nav{
+    gap: var(--gap,4rem);
+}
+
 .homeText{
     font-size: 14px;
     padding: 20px;
